@@ -1,0 +1,6 @@
+conda --version
+$Env:Path += ";C:\Users\<YourUsername>\anaconda3\Scripts"
+conda create -p venv python==3.8 -y
+
+python -m venv venv 
+.\venv\Scripts\activate
